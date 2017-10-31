@@ -1,0 +1,16 @@
+# 从编辑器层面统一代码文件风格
+root = true
+
+# General settings for whole project
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Format specific overrides
+[*.js]
+indent_style = space
+indent_size = 2
